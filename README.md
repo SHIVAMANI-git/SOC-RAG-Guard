@@ -72,18 +72,18 @@ tests and saved-result review do not require that service.
 
 ```text
 SOC-RAG-Guard/
-â”œâ”€â”€ src/experiments/     Training, explanation, statistics and evaluation
-â”œâ”€â”€ tests/               Offline verification
-â”œâ”€â”€ rag/                 Retrieval, evidence corpus and triage
-â”œâ”€â”€ dataset/             Local source data and partitions (not versioned)
-â”œâ”€â”€ results/             Tracked summaries/figures; local full experiment artifacts
-â”œâ”€â”€ docs/                Research guide, status, protocol and execution documentation
-â”œâ”€â”€ .github/workflows/   Automated test and formatting checks
-â”œâ”€â”€ CONTRIBUTING.md      Maintenance and change-validation guide
-â”œâ”€â”€ archive/             Local historical snapshots (not versioned)
-â”œâ”€â”€ .venv/               Local project environment (not versioned)
-â”œâ”€â”€ project.py           Command entry point
-â””â”€â”€ README.md
+|-- src/experiments/     Training, explanation, statistics and evaluation
+|-- tests/              Offline verification
+|-- rag/                Retrieval, evidence corpus and triage
+|-- dataset/            Local source data and partitions (not versioned)
+|-- results/            Summaries, figures and local experiment artifacts
+|-- docs/               Research history, status, protocol and runbook
+|-- .github/workflows/  Automated test and formatting checks
+|-- CONTRIBUTING.md     Maintenance and contribution guide
+|-- archive/            Local historical snapshots (not versioned)
+|-- .venv/              Local Python environment (not versioned)
+|-- project.py          Command entry point
+`-- README.md           Project overview
 ```
 
 ## Dataset Description
