@@ -1,0 +1,49 @@
+{
+  "analysis": "Repeated-measures ANOVA: architecture factor, fold block; Greenhouse-Geisser correction",
+  "status": "Exploratory descriptive supplement, NOT confirmatory evidence. Fold training sets overlap, so even blocked ANOVA cannot establish independent replication. Only five folds; sphericity correction does not fix CV dependence.",
+  "results": {
+    "f1": {
+      "F": 1.164166320245956,
+      "df_model": 4,
+      "df_error": 16,
+      "p_uncorrected": 0.36322139494012035,
+      "greenhouse_geisser_epsilon": 0.38964040195732463,
+      "df_model_GG": 1.5585616078292985,
+      "df_error_GG": 6.234246431317194,
+      "p_GG": 0.3549185112535896,
+      "friedman_sensitivity": {
+        "statistic": 4.960000000000008,
+        "p": 0.29142642506084104
+      }
+    },
+    "roc_auc": {
+      "F": 0.8844756801840806,
+      "df_model": 4,
+      "df_error": 16,
+      "p_uncorrected": 0.4952902217157513,
+      "greenhouse_geisser_epsilon": 0.33210092134503444,
+      "df_model_GG": 1.3284036853801378,
+      "df_error_GG": 5.313614741520551,
+      "p_GG": 0.42106616019416343,
+      "friedman_sensitivity": {
+        "statistic": 5.920000000000002,
+        "p": 0.20520291200399424
+      }
+    },
+    "balanced_accuracy": {
+      "F": 1.5028755669271503,
+      "df_model": 4,
+      "df_error": 16,
+      "p_uncorrected": 0.24822900957491006,
+      "greenhouse_geisser_epsilon": 0.6209769805920707,
+      "df_model_GG": 2.483907922368283,
+      "df_error_GG": 9.935631689473132,
+      "p_GG": 0.2719948397443718,
+      "friedman_sensitivity": {
+        "statistic": 6.560000000000002,
+        "p": 0.16104893913471408
+      }
+    }
+  },
+  "reference": "https://www.statsmodels.org/stable/generated/statsmodels.stats.anova.AnovaRM.html"
+}

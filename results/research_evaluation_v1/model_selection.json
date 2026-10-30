@@ -1,0 +1,78 @@
+{
+  "criterion": "Lowest mean minimum inner-validation BCE; outer test scores excluded from selection. Criterion formalized after initial comparison, not preregistered.",
+  "selected": {
+    "model": "transformer",
+    "mean_inner_validation_BCE": 0.20536948442459108,
+    "selected_epochs": [
+      7,
+      4,
+      8,
+      10,
+      10
+    ],
+    "final_epochs": 8
+  },
+  "all_candidates": [
+    {
+      "model": "transformer",
+      "mean_inner_validation_BCE": 0.20536948442459108,
+      "selected_epochs": [
+        7,
+        4,
+        8,
+        10,
+        10
+      ],
+      "final_epochs": 8
+    },
+    {
+      "model": "cnn",
+      "mean_inner_validation_BCE": 0.22325101792812346,
+      "selected_epochs": [
+        4,
+        3,
+        4,
+        1,
+        7
+      ],
+      "final_epochs": 4
+    },
+    {
+      "model": "cnn_lstm",
+      "mean_inner_validation_BCE": 0.2388552486896515,
+      "selected_epochs": [
+        10,
+        8,
+        10,
+        10,
+        10
+      ],
+      "final_epochs": 10
+    },
+    {
+      "model": "bilstm",
+      "mean_inner_validation_BCE": 0.2602525234222412,
+      "selected_epochs": [
+        9,
+        10,
+        7,
+        9,
+        7
+      ],
+      "final_epochs": 9
+    },
+    {
+      "model": "lstm",
+      "mean_inner_validation_BCE": 0.27180262207984923,
+      "selected_epochs": [
+        10,
+        8,
+        8,
+        9,
+        10
+      ],
+      "final_epochs": 9
+    }
+  ],
+  "evaluation": "CV scores describe the five prespecified architectures. Selected-model performance is not an unbiased new test estimate; requires external validation. Full-data refit has no new held-out score."
+}

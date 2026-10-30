@@ -1,0 +1,11 @@
+{
+  "model": "transformer",
+  "training_rows": 211043,
+  "epochs": 8,
+  "seed": 20261030,
+  "device": "cuda",
+  "reload_max_probability_error": 0.0,
+  "new_test_metric": null,
+  "note": "Full-data deployment candidate; no claim of independently measured final-model performance",
+  "data_sha256": "26ddc513552de36de6428b2e578efaed2b57504c716dfba847cc0109a64e1974"
+}

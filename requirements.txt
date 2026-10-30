@@ -1,0 +1,10 @@
+joblib==1.6.0
+lime==0.2.0.1
+matplotlib==3.10.9
+numpy==2.2.6
+pandas==2.3.3
+requests==2.34.2
+scikit-learn==1.7.2
+scipy==1.15.3
+shap==0.49.1
+torch==2.14.1

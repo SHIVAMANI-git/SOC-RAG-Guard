@@ -1,0 +1,23 @@
+﻿[
+  {
+    "source_id": "NIST-IR-001",
+    "title": "NIST SP 800-61 Rev. 2: Computer Security Incident Handling Guide",
+    "source_url": "https://csrc.nist.gov/pubs/sp/800/61/r2/final",
+    "category": "incident_response",
+    "text": "Incident response requires a structured process for handling security incidents. Common incident-response phases include preparation, detection and analysis, containment, eradication and recovery, and post-incident activity. Analysts should document observations, preserve relevant evidence, record actions taken, and distinguish confirmed findings from hypotheses. A network anomaly or machine-learning alert is an investigative lead, not by itself proof of a confirmed security incident."
+  },
+  {
+    "source_id": "MITRE-ATTACK-001",
+    "title": "MITRE ATT&CK Enterprise",
+    "source_url": "https://attack.mitre.org/",
+    "category": "threat_analysis",
+    "text": "MITRE ATT&CK is a knowledge base of adversary tactics and techniques based on observed behavior. Analysts can use it to organize and investigate observed behaviors. Mapping an alert to a specific ATT&CK technique requires supporting evidence; a generic anomaly or classifier prediction alone is insufficient to establish that a technique occurred."
+  },
+  {
+    "source_id": "CISA-IR-001",
+    "title": "CISA Cybersecurity Resources",
+    "source_url": "https://www.cisa.gov/resources-tools",
+    "category": "incident_response",
+    "text": "Cybersecurity incident handling should be evidence-led and systematic. Analysts should validate alerts against relevant telemetry, preserve useful records, document decisions, and follow the organization's incident-response procedures. Automated detections should be reviewed in context before response actions are taken. Where evidence is incomplete, the analyst should state what remains unknown rather than present an unverified conclusion as fact."
+  }
+]

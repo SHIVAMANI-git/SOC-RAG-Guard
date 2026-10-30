@@ -1,0 +1,74 @@
+# Local Python environments
+.venv/
+venv/
+env/
+
+# Python-generated files
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Build and packaging output
+build/
+dist/
+*.egg-info/
+*.zip
+
+# Local data and historical backups
+dataset/
+archive/
+rag/knowledge_base/embeddings_cache.json
+rag/evaluation/*
+!rag/evaluation/*.py
+
+# Generated output: retain the reviewed publication subset below
+results/*
+!results/README.md
+!results/research_evaluation_v1/
+results/research_evaluation_v1/*
+!results/research_evaluation_v1/RESEARCH_REPORT.md
+!results/research_evaluation_v1/model_comparison.csv
+!results/research_evaluation_v1/anova.csv
+!results/research_evaluation_v1/anova.json
+!results/research_evaluation_v1/corrected_t_tests.csv
+!results/research_evaluation_v1/feature_importance.csv
+!results/research_evaluation_v1/lime_fidelity.csv
+!results/research_evaluation_v1/model_selection.json
+!results/research_evaluation_v1/figures/
+!results/research_evaluation_v1/figures/**
+!results/research_evaluation_v1/final_model/
+!results/research_evaluation_v1/final_model/**
+
+# Local audit output and packaged submissions
+docs/checks/
+docs/reorganization_verification.json
+docs/reports/*.zip
+
+# Trained model artifacts
+*.pt
+*.pth
+*.joblib
+*.pkl
+
+# Local datasets
+dataset/
